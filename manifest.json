@@ -1,0 +1,15 @@
+{
+  "name": "PWP Financial Protection Assessment",
+  "short_name": "PWP Assessment",
+  "description": "Diagnóstico 360º de blindagem financeira da PWP Wealth Solutions.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0E1A28",
+  "theme_color": "#0E1A28",
+  "icons": [
+    {"src":"/icon-192.png","sizes":"192x192","type":"image/png","purpose":"any maskable"},
+    {"src":"/icon-512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}
+  ]
+}

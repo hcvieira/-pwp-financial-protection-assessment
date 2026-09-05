@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: pwp-financial-protection-assessment
+    runtime: docker
+    plan: starter
+    healthCheckPath: /api/health
+    envVars:
+      - key: PWP_ADMIN_PIN
+        generateValue: true
+      - key: PWP_DATA_DIR
+        value: /data
+    disk:
+      name: pwp-data
+      mountPath: /data
+      sizeGB: 1
